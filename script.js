@@ -10,7 +10,7 @@ function computerPlay(){
 }
 
 function humanPlay(){
-    let playerMove = prompt(`What you chose? Rock, Paper, Scissors`)
+    let playerMove = prompt(`What you chose?  Rock, Paper, Scissors`)
     playerMove = playerMove.toLowerCase();
     playerMove = playerMove.charAt(0).toUpperCase() + playerMove.slice(1);
     playerChoice = playerMove;
@@ -37,7 +37,7 @@ function gameplay(){
 function singleRound(){
     computerPlay();
     humanPlay();
-    gameplay(); winner, loser;
+    gameplay();
 }
 
 function gameplayFive(){
