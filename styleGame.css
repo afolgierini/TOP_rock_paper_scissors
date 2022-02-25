@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Kufam';
+}
+
+.title{
+    color: red;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 2px;
+}
+
+.rule{
+    font-size: 34px;
+    margin-bottom: 150px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.divCompleter{
+    width: 100%;
+}
+
+.completer{
+    display: flex;
+    justify-content: center;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.pcScore{
+    display: flex;
+    justify-content: space-evenly;
+    width: 210px;
+}
+
+.playerScore{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-bottom: 60px;
+}
+
+.results{
+    margin-bottom: 126px;
+    font-size: 20px;
+}
+
+
+.btnRock, .btnPaper, .btnScissors{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    background-color: rgb(92, 92, 92);
+    border: none;
+    
+}
+
+.btnRock:hover, .btnPaper:hover, .btnScissors:hover{
+    transform: rotate(358deg);
+    box-shadow: 0px 0px 10px 10px  rgb(184, 176, 176);
+}
+
+
+.imgRock, .imgPaper, .imgScissors{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.imgRock:hover, .imgPaper:hover, .imgScissors:hover{
+    transform: rotate(4deg);
+}
+
+.btnPlayAgain{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.playAgain{
+    font-family: 'Kufam';
+    font-size: 16px;
+    margin-bottom: 46px;
+    height: 40px;
+    width: 140px;
+    background: linear-gradient(68.15deg, #202020 16.62%, #616161 85.61%);
+    border-radius: 6px;
+}
+
+.completerFlex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer{
+    color: white;
+    font-family: 'Kufam';
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
