@@ -1,4 +1,4 @@
 # Project from The Odin Project.
-# Rock Paper Scissors
+Rock Paper Scissors
 
 https://afolgierini.github.io/TOP_rock_paper_scissors/
